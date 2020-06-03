@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="150.0" prefWidth="500.0"
+      xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <AnchorPane prefHeight="331.0" prefWidth="519.0" style="-fx-background-color: #333;">
+         <children>
+            <Button id="chooseFileBtn" fx:id="chooseFileBtn" layoutX="19.0" layoutY="65.0" mnemonicParsing="false" text="Выбрать файл" />
+            <Button id="chooseFolderBtn" fx:id="chooseFolderBtn" layoutX="19.0" layoutY="108.0" mnemonicParsing="false" text="Выбрать папку" />
+            <Button id="convertFileBtn" fx:id="convertFileBtn" layoutX="138.0" layoutY="65.0" mnemonicParsing="false" text="Сконвертировать файл" />
+            <Button id="convertFolderBtn" fx:id="convertFolderBtn" layoutX="138.0" layoutY="108.0" mnemonicParsing="false" text="Cконвертировать всю папку" />
+            <TextField id="addressEdit" fx:id="addressEdit" layoutX="19.0" layoutY="25.0" prefHeight="25.0" prefWidth="460.0" promptText="Адрес" />
+         </children></AnchorPane>
+   </children>
+</VBox>
